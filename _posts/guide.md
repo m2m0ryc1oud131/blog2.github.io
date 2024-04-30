@@ -1,0 +1,48 @@
+---
+layout: single
+title: 깃허브 블로그 제작 방법
+---
+
+
+개인 도메인 연결 방법
+1. 깃허브 블로그 프로젝트 클릭
+2. setting 클릭
+3. page 클릭
+4. 도메인 연결 클릭
+5. 도메인 구매한 곳에서 cname, a, aaaa 레코드 설정
+6. cname 레코드 설정 방법 - 이름 www / 대상 깃허브닉네임.github.io
+7. a 레코드 설정 방법 - 이름 @(루트 도메인이라는 뜻임, 괄호 안에 있는건 쓰지마세요) /
+185.199.108.153
+185.199.109.153
+185.199.110.153
+185.199.111.153
+여기 아이피 4개중 아무거나 선택
+
+9. aaaa 레코드 설정 방법 - 이름 @ /
+2606:50c0:8000::153
+2606:50c0:8001::153
+2606:50c0:8002::153
+2606:50c0:8003::153
+여기 4개중에 아무거나 선택
+
+루트 도메인이란? - naver.com 이런걸 의미 (naver 이게 루트 도메인 역할)
+서브 도메인이란? - m.naver.com 이런걸 의미 (m. 이게 서브 도메인 역할)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+참고 사이트 - https://taedonn.tistory.com/22, https://docs.github.com/ko/pages/configuring-a-custom-domain-for-your-github-pages-site/managing-a-custom-domain-for-your-github-pages-site
