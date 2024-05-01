@@ -113,8 +113,8 @@ analytics:
 author:
   name             : "LightXero"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "I am an **amazing** person."
-  location         : "Somewhere"
+  bio              : "I m LightXero."
+  location         : "Light"
   email            :
   links:
     - label: "Email"
